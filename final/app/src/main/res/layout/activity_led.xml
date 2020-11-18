@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:background="#DECEF5"
+    android:background="#17375E"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ledActivity">
@@ -46,7 +46,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/button"
+
         android:layout_marginLeft="90dp"
         android:layout_marginTop="370dp"
         android:textSize="20sp"
@@ -59,7 +59,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/button"
+
         android:layout_marginLeft="90dp"
         android:layout_marginTop="500dp"
         android:textSize="20sp"

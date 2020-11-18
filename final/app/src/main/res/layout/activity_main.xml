@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
-android:background="#DECEF5"
+    android:background="#17375E"
 xmlns:app="http://schemas.android.com/apk/res-auto"
 xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
@@ -17,11 +17,11 @@ tools:context=".MainActivity">
     android:layout_alignParentTop="true"
     android:layout_alignParentBottom="true"
     android:layout_centerHorizontal="true"
-    android:layout_marginLeft="110dp"
+    android:layout_marginLeft="125dp"
 
     android:layout_marginTop="-55dp"
     android:layout_marginBottom="387dp"
-    app:srcCompat="@drawable/color"
+    app:srcCompat="@drawable/che"
      />
 
 <TextView
@@ -47,11 +47,12 @@ tools:context=".MainActivity">
     android:layout_alignParentLeft="true"
     android:layout_alignParentTop="true"
     android:layout_centerHorizontal="true"
-    android:background="@drawable/button"
+
     android:layout_marginLeft="90dp"
     android:layout_marginTop="370dp"
     android:textSize="20sp"
-    android:text="LED" />
+    android:text="LED"
+    />
 
 <Button
     android:id="@+id/button2"
@@ -61,7 +62,7 @@ tools:context=".MainActivity">
     android:layout_alignParentLeft="true"
     android:layout_alignParentTop="true"
     android:layout_centerHorizontal="true"
-    android:background="@drawable/button"
+
     android:layout_marginLeft="90dp"
     android:layout_marginTop="500dp"
     android:textSize="20sp"
@@ -74,11 +75,25 @@ tools:context=".MainActivity">
     android:layout_alignParentStart="true"
     android:layout_alignParentLeft="true"
     android:layout_alignParentTop="true"
-    android:background="@drawable/button"
+
     android:layout_centerHorizontal="true"
     android:layout_marginLeft="90dp"
     android:layout_marginTop="630dp"
     android:textSize="20sp"
     android:text="Button3" />
 
+    <Button
+        android:id="@+id/buttonbule"
+        android:layout_width="59dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="351dp"
+        android:layout_marginLeft="351dp"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/bulebot"
+        android:drawableTop="@drawable/blue"
+        android:textSize="20sp" />
 </RelativeLayout>

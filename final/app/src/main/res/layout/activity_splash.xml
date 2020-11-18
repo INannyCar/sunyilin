@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
-    android:background="#DECEF5"
+    android:background="#17375E"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -18,11 +18,11 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginLeft="110dp"
+        android:layout_marginLeft="125dp"
 
         android:layout_marginTop="-55dp"
         android:layout_marginBottom="387dp"
-        app:srcCompat="@drawable/color"
+        app:srcCompat="@drawable/che"
          />
 
     <TextView
