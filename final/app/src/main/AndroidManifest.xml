@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.cookandroid.afinal">
-<!--    @mipmap/ic_launcher-->
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/che"
@@ -9,7 +9,8 @@
         android:roundIcon="@drawable/che"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".buletoothActivity"></activity>
+        <activity android:name=".lastActivity"></activity>
+        <activity android:name=".buletoothActivity" />
         <activity android:name=".ledActivity" />
         <activity android:name=".wenduActivity" />
         <activity android:name=".MainActivity" />

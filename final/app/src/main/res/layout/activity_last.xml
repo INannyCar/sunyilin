@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#17375E"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="86dp"
+                        android:layout_height="81dp"
+                        android:layout_gravity="center"
+                        android:layout_margin="20dp"
+                        android:src="@drawable/che" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:text="INannycar"
+                        android:textColor="#ffffff"
+                        android:textSize="40dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/button4"
+                        android:layout_width="46dp"
+                        android:layout_height="46dp"
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@android:color/transparent"
+                        android:drawableTop="@drawable/lan3" />
+
+
+                    <ImageView
+
+                        android:layout_marginBottom="10dp"
+                        android:layout_width="350dp"
+                        android:layout_height="1dp"
+
+                        android:background="#FFFFFF"
+                        />
+                </LinearLayout>
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="350dp"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="#FFFFFF"
+                    />
+            </LinearLayout>
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:background="@drawable/lin"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:orientation="vertical">-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+
+<!--                    android:layout_height="64dp"-->
+<!--                    android:layout_marginTop="20dp">-->
+
+
+<!--                    <ImageView-->
+<!--                        android:id="@+id/blue"-->
+<!--                        android:layout_width="43dp"-->
+<!--                        android:layout_height="43dp"-->
+<!--                        android:layout_marginLeft="40dp"-->
+<!--                        app:srcCompat="@drawable/lanbu" />-->
+
+<!--                    <ToggleButton-->
+<!--                        android:id="@+id/tooth"-->
+<!--                        android:layout_marginLeft="150dp"-->
+<!--                        android:layout_width="100dp"-->
+<!--                        android:layout_height="50dp"-->
+<!--                        android:background="@drawable/button"-->
+<!--                        android:textOff="On"-->
+<!--                        android:textOn="Off"-->
+<!--                        android:text="ToggleButton" />-->
+
+<!--                </LinearLayout>-->
+
+
+<!--            </LinearLayout>-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/lin"
+                android:layout_marginTop="20dp"
+
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="64dp"
+                    android:layout_marginTop="20dp">
+
+                    <ImageView
+                        android:id="@+id/dengl"
+                        android:layout_width="47dp"
+                        android:layout_height="43dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/buliang" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:text="LED"
+                        android:textColor="#000000"
+                        android:textSize="25dp"
+
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="350dp"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="#000000"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="81dp">
+
+                    <ToggleButton
+                        android:id="@+id/btnLed"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="66dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/button"
+                        android:textOff="켜기"
+                        android:textOn="끄기" />
+
+                    <ToggleButton
+                        android:id="@+id/btnLedMode"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@drawable/button"
+                        android:textOff="자동"
+                        android:textOn="수동" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/lin"
+                android:layout_height="200dp"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <ImageView
+                        android:id="@+id/wen"
+                        android:layout_width="31dp"
+                        android:layout_height="45dp"
+                        android:layout_margin="27dp"
+                        android:background="@drawable/wenduliang" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:text="온도"
+                        android:textColor="#000000"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+                <ImageView
+
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="350dp"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="#000000"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="81dp"
+                    android:layout_marginTop="15dp">
+
+                    <TextView
+                        android:id="@+id/tempure"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="0dp"
+                        android:textColor="#ffffff"
+
+                        android:textSize="35dp" />
+
+                    <Button
+                        android:id="@+id/btnTempure"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="0dp"
+                        android:background="@drawable/button"
+                        android:onClick="click"
+                        android:text="온도측정"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:background="@drawable/lin"
+                android:layout_marginTop="30dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="80dp">
+
+                    <ImageView
+                        android:layout_width="31dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="33dp"
+                        android:layout_marginLeft="25dp"
+                        android:background="@drawable/breakicon" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="33dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="20dp"
+                        android:text="브레이크"
+                        android:textColor="#000000"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="0dp"
+                    android:layout_width="350dp"
+                    android:layout_height="1dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="#000000"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"></LinearLayout>
+
+                <ToggleButton
+                    android:id="@+id/btnBreak"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/button"
+                    android:textOff="On"
+                    android:textOn="Off" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
