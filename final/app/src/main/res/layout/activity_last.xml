@@ -59,50 +59,7 @@
                         android:background="#FFFFFF"
                         />
                 </LinearLayout>
-                <ImageView
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="10dp"
-                    android:layout_width="350dp"
-                    android:layout_height="1dp"
-                    android:layout_marginLeft="30dp"
-                    android:background="#FFFFFF"
-                    />
             </LinearLayout>
-<!--            <LinearLayout-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="match_parent"-->
-<!--                android:background="@drawable/lin"-->
-<!--                android:layout_marginTop="20dp"-->
-<!--                android:orientation="vertical">-->
-
-<!--                <LinearLayout-->
-<!--                    android:layout_width="match_parent"-->
-
-<!--                    android:layout_height="64dp"-->
-<!--                    android:layout_marginTop="20dp">-->
-
-
-<!--                    <ImageView-->
-<!--                        android:id="@+id/blue"-->
-<!--                        android:layout_width="43dp"-->
-<!--                        android:layout_height="43dp"-->
-<!--                        android:layout_marginLeft="40dp"-->
-<!--                        app:srcCompat="@drawable/lanbu" />-->
-
-<!--                    <ToggleButton-->
-<!--                        android:id="@+id/tooth"-->
-<!--                        android:layout_marginLeft="150dp"-->
-<!--                        android:layout_width="100dp"-->
-<!--                        android:layout_height="50dp"-->
-<!--                        android:background="@drawable/button"-->
-<!--                        android:textOff="On"-->
-<!--                        android:textOn="Off"-->
-<!--                        android:text="ToggleButton" />-->
-
-<!--                </LinearLayout>-->
-
-
-<!--            </LinearLayout>-->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
@@ -290,7 +247,25 @@
                     android:textOff="On"
                     android:textOn="Off" />
             </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+
+                android:layout_marginTop="30dp">
+
+                <Button
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="300dp"
+                    android:background="@android:color/transparent"
+                    android:drawableTop="@drawable/close"
+                    android:onClick="showdialog"
+                    android:text="로그아웃"
+                    android:textColor="#FFFFFF" />
+           </LinearLayout>
         </LinearLayout>
+
 
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
