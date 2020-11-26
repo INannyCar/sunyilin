@@ -66,6 +66,7 @@
                 android:background="@drawable/lin"
                 android:layout_marginTop="20dp"
 
+
                 android:orientation="vertical">
 
                 <LinearLayout
@@ -141,10 +142,10 @@
 
                     <ImageView
                         android:id="@+id/wen"
-                        android:layout_width="31dp"
-                        android:layout_height="45dp"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
                         android:layout_margin="27dp"
-                        android:background="@drawable/wenduliang" />
+                        android:background="@drawable/wendu1" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -173,11 +174,12 @@
                         android:id="@+id/tempure"
                         android:layout_width="100dp"
                         android:layout_height="50dp"
-                        android:layout_marginLeft="50dp"
-                        android:layout_marginTop="0dp"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="8dp"
                         android:textColor="#ffffff"
+                        android:text="12.34"
 
-                        android:textSize="35dp" />
+                        android:textSize="30dp" />
 
                     <Button
                         android:id="@+id/btnTempure"
@@ -234,18 +236,30 @@
                     />
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical"></LinearLayout>
+                    android:layout_height="81dp">
 
-                <ToggleButton
-                    android:id="@+id/btnBreak"
-                    android:layout_width="100dp"
-                    android:layout_height="50dp"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="30dp"
-                    android:background="@drawable/button"
-                    android:textOff="On"
-                    android:textOn="Off" />
+                    <ToggleButton
+                        android:id="@+id/btnBreak"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="66dp"
+                        android:layout_marginTop="30dp"
+
+                        android:background="@drawable/button"
+                        android:textOff="On"
+                        android:textOn="Off" />
+
+                    <ToggleButton
+                        android:id="@+id/btnbreak1"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="80dp"
+                        android:layout_marginTop="30dp"
+                        android:background="@drawable/button"
+                        android:textOff="자동"
+                        android:textOn="수동" />
+                </LinearLayout>
+
             </LinearLayout>
             <LinearLayout
                 android:layout_width="match_parent"

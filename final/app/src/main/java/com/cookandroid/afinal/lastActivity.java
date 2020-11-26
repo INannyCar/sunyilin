@@ -11,12 +11,16 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 import static com.cookandroid.afinal.R.drawable.wendu;
+import static com.cookandroid.afinal.R.drawable.wendu1;
 import static com.cookandroid.afinal.R.drawable.wenduliang;
 
 public class lastActivity extends AppCompatActivity {
-    private Button btn_LED;
+    private Button btn_LED,btn_zi,btn_break1,btn_break2;
     private ImageView tv;
     private boolean status=false;
+    private boolean stazi=false;
+    private boolean break1=false;
+    private boolean breakz=false;
     private ImageView show;
     @Override
 
@@ -25,9 +29,43 @@ public class lastActivity extends AppCompatActivity {
         setContentView(R.layout.activity_last);
         show = findViewById(R.id.wen);
         btn_LED = (Button) findViewById(R.id.btnLed);
-
+        btn_zi=(Button)findViewById(R.id.btnLedMode);
+        btn_break1=(Button)findViewById(R.id.btnbreak1);
+        btn_break2=(Button)findViewById(R.id.btnBreak);
         tv=findViewById(R.id.dengl);
 
+        btn_zi.setOnClickListener(new View.OnClickListener() {
+            @Override
+
+            public void onClick(View view) {
+
+                if(!stazi){
+
+                    btn_LED.setEnabled(false);
+                    stazi=true;
+                }else{
+
+                    btn_LED.setEnabled(true);
+                    stazi=false;
+                }
+            }
+        });
+        btn_break1.setOnClickListener(new View.OnClickListener() {
+            @Override
+
+            public void onClick(View view) {
+
+                if(!breakz){
+
+                    btn_break2.setEnabled(false);
+                    breakz=true;
+                }else{
+
+                    btn_break2.setEnabled(true);
+                    breakz=false;
+                }
+            }
+        });
         btn_LED.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -46,7 +84,7 @@ public class lastActivity extends AppCompatActivity {
 
     }
     public void click(View View){
-        show.setImageDrawable(getResources().getDrawable((wenduliang)));
+        show.setImageDrawable(getResources().getDrawable((wendu1)));
         blink();
 
 
